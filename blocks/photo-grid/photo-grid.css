@@ -1,0 +1,7 @@
+.photo-grid {
+  max-width: 1184px;
+  margin: 0 auto;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(4, calc((100% - (16px*3)) / 4));
+}
