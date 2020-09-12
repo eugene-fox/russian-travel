@@ -1,0 +1,28 @@
+.cover__background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: no-repeat url(../../../images/cover-background.jpg);
+  background-size: cover;
+
+  text-decoration: none;
+
+  min-height: 740px;
+}
+
+.cover__background::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2A2C2F;
+  opacity: 0.3;
+}
+
+.cover__background:hover::before {
+  opacity: 0.8;
+}
