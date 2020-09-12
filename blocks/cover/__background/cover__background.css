@@ -21,6 +21,7 @@
   bottom: 0;
   background: #2A2C2F;
   opacity: 0.3;
+  transition: .5s;
 }
 
 .cover__background:hover::before {
