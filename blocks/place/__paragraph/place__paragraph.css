@@ -10,3 +10,19 @@
 .place__paragraph:last-child {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {}
+}
+
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .place__paragraph {}
+}
