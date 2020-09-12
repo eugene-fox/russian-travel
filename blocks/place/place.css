@@ -21,11 +21,13 @@
 @media screen and (max-width: 768px) {
   .place {
     grid-gap: 28px 48px;
+    margin-bottom: 72px;
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
   .place {
+    margin-bottom: 48px;
     grid-template-columns: 100%;
     grid-template-rows: min-content 1fr;
     grid-gap: 32px 0;
