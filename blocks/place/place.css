@@ -26,14 +26,15 @@
   .place {
     display: flex;
     flex-direction: column;
-    grid-gap: 48px 16px;
+    gap: 48px;
+    /* grid-gap: 48px 16px; */
   }
 }
 
 @media screen and (max-width: 640px) {
   .place {
     margin-bottom: 48px;
-    grid-template-columns: 1fr;
-    grid-gap: 32px 0;
+    gap: 32px;
+    /* grid-gap: 32px 0; */
   }
 }
