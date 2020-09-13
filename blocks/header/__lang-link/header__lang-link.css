@@ -9,11 +9,6 @@
   margin: 0;
 }
 
-.header__lang-link:first-child {
-  margin-right: 18px;
-  text-decoration: underline;
-}
-
 .header__lang-link:hover {
   opacity: .8;
   transition: opacity linear .3s;
@@ -23,7 +18,5 @@
   .header__lang-link {
     font-size: 18px;
     line-height: 1.11;
-
-
   }
 }

@@ -16,16 +16,10 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .lead__subtitle {
-    margin-bottom: 56px;
-  }
-}
-
 @media screen and (max-width: 525px) {
   .lead__subtitle {
     padding-left: 24px;
-    padding-right: 24   px;
+    padding-right: 24px;
   }
 }
 
