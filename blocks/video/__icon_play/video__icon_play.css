@@ -1,0 +1,31 @@
+@keyframes video__icon_play_blink {
+  from {
+    transform: scale(.8);
+  }
+  to {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+.video__icon_play {
+  display: block;
+  position: relative;
+  width: 41px;
+  height: 41px;
+  margin: 30px;
+  background: no-repeat url('../../../images/icon-play.svg');
+
+  animation: video__icon_play_blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+
+  transition: opacity .3s;
+}
+
+.video__icon_play:hover {
+  cursor: pointer;
+  animation: none;
+}
