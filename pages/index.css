@@ -50,6 +50,15 @@
 @import url(../blocks/video/__title/video__title.css);
 @import url(../blocks/video/__subtitle/video__subtitle.css);
 
+@import url(../blocks/photographers/photographers.css);
+@import url(../blocks/photographers/__container/photographers__container.css);
+@import url(../blocks/photographers/__comments/photographers__comments.css);
+@import url(../blocks/photographers/__comment/photographers__comments.css);
+@import url(../blocks/photographers/__image-container/photographers__image-container.css);
+@import url(../blocks/photographers/__image/photographers__image.css);
+@import url(../blocks/photographers/__quote/photographers__quote.css);
+@import url(../blocks/photographers/__author/photographers__author.css);
+
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
