@@ -4,5 +4,25 @@
   justify-content: flex-end;
   position: relative;
   width: calc(100% - 18px);
-  min-height: 323px ;
+  min-height: 323px;
 }
+
+@media screen and (max-width: 768px) {
+  .video__item {
+    min-height: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .video__item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__item {
+    min-height: 192px;
+  }
+}
+
+

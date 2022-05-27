@@ -17,3 +17,9 @@
 
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .video__duration {
+    margin: 0px 24px 0px;
+  }
+}
