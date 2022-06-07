@@ -9,3 +9,11 @@
 
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 768px) {
+  .photographers__author {
+    order: 2;
+    margin-bottom: 24px;
+  }
+}
+

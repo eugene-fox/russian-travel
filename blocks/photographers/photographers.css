@@ -3,3 +3,21 @@
   box-sizing: border-box;
   margin: 0 auto 102px;
 }
+
+@media screen and (max-width: 1280px) {
+  .photographers {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photographers {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .photographers {
+    padding: 0 16px;
+  }
+}

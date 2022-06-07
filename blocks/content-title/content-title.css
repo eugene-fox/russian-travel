@@ -19,13 +19,10 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 420px) {
   .content-title {
     font-size: 32px;
     line-height: 35px;
     margin-bottom: 16px;
-    /* font-size: 42px;
-    line-height: 46px;
-    margin-bottom: 31px; */
   }
 }

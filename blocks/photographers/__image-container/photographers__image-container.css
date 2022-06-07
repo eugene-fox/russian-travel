@@ -7,3 +7,10 @@
   overflow: hidden;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 768px) {
+  .photographers__image-container {
+    order: 1;
+    margin-bottom: 16px;
+  }
+}
