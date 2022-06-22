@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
   <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
@@ -21,7 +20,7 @@
 
     <header class="header">
 
-      <img src="./images/header-logo.svg" alt="Логотип сайта Путешествия по России" class="header__logo">
+      <img src="<%=require('./images/header-logo.svg')%>" alt="Логотип сайта Путешествия по России" class="header__logo">
       <ul class="header__lang-links">
         <li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
         <li><a href="#" class="header__lang-link">En</a></li>
@@ -37,7 +36,7 @@
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
 
         <figure class="lead__picture">
-          <img src="./images/lead-image-min.png" alt="Фото спящего человека в вагоне поезда" class="lead__image">
+          <img src="<%=require('./images/lead-image-min.png')%>" alt="Фото спящего человека в вагоне поезда" class="lead__image">
           <figcaption class="lead__caption">ваша полка&nbsp;&mdash; верхняя</figcaption>
         </figure>
 
@@ -68,19 +67,19 @@
 
       <section class="photo-grid">
 
-        <img src="./images/grid-item-1-min.jpg" alt="Фотография вида из окна поезда" class="photo-grid__item">
-        <img src="./images/grid-item-2-min.jpg" alt="Фотография заснеженных гор и облаков" class="photo-grid__item">
-        <img src="./images/grid-item-3-min.jpg" alt="Фотография туманного пейзажа с собакой" class="photo-grid__item">
-        <img src="./images/grid-item-4-min.jpg" alt="Фотография туманного леса. Сочи" class="photo-grid__item">
-        <img src="./images/grid-item-5-min.jpg" alt="Фотография колеса автомобиля на льду" class="photo-grid__item">
-        <img src="./images/grid-item-6-min.jpg" alt="Фотография берега озера Байкала" class="photo-grid__item">
-        <img src="./images/grid-item-7-min.jpg" alt="Фотография вершины горы Эльбрус" class="photo-grid__item">
-        <img src="./images/grid-item-8-min.jpg" alt="Знак пешеходного перехода на фоне волнорезов"
+        <img src="<%=require('./images/grid-item-1-min.jpg')%>" alt="Фотография вида из окна поезда" class="photo-grid__item">
+        <img src="<%=require('./images/grid-item-2-min.jpg')%>" alt="Фотография заснеженных гор и облаков" class="photo-grid__item">
+        <img src="<%=require('./images/grid-item-3-min.jpg')%>" alt="Фотография туманного пейзажа с собакой" class="photo-grid__item">
+        <img src="<%=require('./images/grid-item-4-min.jpg')%>" alt="Фотография туманного леса. Сочи" class="photo-grid__item">
+        <img src="<%=require('./images/grid-item-5-min.jpg')%>" alt="Фотография колеса автомобиля на льду" class="photo-grid__item">
+        <img src="<%=require('./images/grid-item-6-min.jpg')%>" alt="Фотография берега озера Байкала" class="photo-grid__item">
+        <img src="<%=require('./images/grid-item-7-min.jpg')%>" alt="Фотография вершины горы Эльбрус" class="photo-grid__item">
+        <img src="<%=require('./images/grid-item-8-min.jpg')%>" alt="Знак пешеходного перехода на фоне волнорезов"
           class="photo-grid__item">
-        <img src="./images/grid-item-9-min.jpg" alt="Фотография Камчатских просторов" class="photo-grid__item">
-        <img src="./images/grid-item-10-min.jpg" alt="Фотография горы на Камчатке" class="photo-grid__item">
-        <img src="./images/grid-item-11-min.jpg" alt="Фотография с оезра Байкал" class="photo-grid__item">
-        <img src="./images/grid-item-12-min.jpg" alt="Фотография вида в Ергаках" class="photo-grid__item">
+        <img src="<%=require('./images/grid-item-9-min.jpg')%>" alt="Фотография Камчатских просторов" class="photo-grid__item">
+        <img src="<%=require('./images/grid-item-10-min.jpg')%>" alt="Фотография горы на Камчатке" class="photo-grid__item">
+        <img src="<%=require('./images/grid-item-11-min.jpg')%>" alt="Фотография с оезра Байкал" class="photo-grid__item">
+        <img src="<%=require('./images/grid-item-12-min.jpg')%>" alt="Фотография вида в Ергаках" class="photo-grid__item">
 
       </section>
 
@@ -93,7 +92,7 @@
             <p class="place__url-heading">url</p>
             <a href="http://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
           </div>
-          <img src="./images/place-photo-1-min.jpg" alt="Куршская коса" class="place__image">
+          <img src="<%=require('./images/place-photo-1-min.jpg')%>" alt="Куршская коса" class="place__image">
           <div class="place__text">
             <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
               спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная
@@ -114,7 +113,7 @@
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link"
               target="_blank">National Geographic</a>
           </div>
-          <img src="./images/place-photo-2-min.jpg" alt="Кольский" class="place__image">
+          <img src="<%=require('./images/place-photo-2-min.jpg')%>" alt="Кольский" class="place__image">
           <div class="place__text">
             <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой
               на юг —
@@ -136,7 +135,7 @@
             <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link"
               target="_blank">Facebook</a>
           </div>
-          <img src="./images/place-photo-3-min.jpg" alt="Алтай" class="place__image">
+          <img src="<%=require('./images/place-photo-3-min.jpg')%>" alt="Алтай" class="place__image">
           <div class="place__text">
             <p class="place__paragraph">Алтай — одно из красивейших мест в России.
               В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и
@@ -156,7 +155,7 @@
             <p class="place__url-heading">url</p>
             <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
           </div>
-          <img src="./images/place-photo-4-min.jpg" alt="Зимний Байкал" class="place__image">
+          <img src="<%=require('./images/place-photo-4-min.jpg')%>" alt="Зимний Байкал" class="place__image">
           <div class="place__text">
             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
               в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в
@@ -176,7 +175,7 @@
             <p class="place__url-heading">url</p>
             <a href="http://vodlozero.ru" class="place__link" target="_blank">http://vodlozero.ru/</a>
           </div>
-          <img src="./images/place-photo-5-min.jpg" alt="Карелия" class="place__image">
+          <img src="<%=require('./images/place-photo-5-min.jpg')%>" alt="Карелия" class="place__image">
           <div class="place__text">
             <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
               лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
@@ -197,7 +196,7 @@
         <div class="video__container">
           <div class="video__item">
             <div class="video__item-bg">
-              <img class="video__cover" src="./images/video-item-1-min.jpg" alt="Обложка видео Цвета Камчатки">
+              <img class="video__cover" src="<%=require('./images/video-item-1-min.jpg')%>" alt="Обложка видео Цвета Камчатки">
             </div>
             <a class="video__icon_play" href="https://vimeo.com/81106671" target="_blank"></a>
             <span class="video__duration">6:30</span>
@@ -206,7 +205,7 @@
           </div>
           <div class="video__item">
             <div class="video__item-bg">
-              <img class="video__cover" src="./images/video-item-2-min.jpg" alt="Обсерватория">
+              <img class="video__cover" src="<%=require('./images/video-item-2-min.jpg')%>" alt="Обсерватория">
             </div>
             <a class="video__icon_play" href="https://vimeo.com/290675450" target="_blank"></a>
             <span class="video__duration">24:45</span>
@@ -224,7 +223,7 @@
           <div class="photographers__comments">
             <div class="photographers__comment">
               <picture class="photographers__image-container">
-                <img class="photographers__image" src="./images/viktor-lyagushkin-min.jpg" alt="Виктор Лягушкин">
+                <img class="photographers__image" src="<%=require('./images/viktor-lyagushkin-min.jpg')%>" alt="Виктор Лягушкин">
               </picture>
               <p class="photographers__quote">
                 «Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»
@@ -235,7 +234,7 @@
             </div>
             <div class="photographers__comment">
               <picture class="photographers__image-container">
-                <img class="photographers__image" src="./images/ivan-hafizov-min.jpg" alt="Иван Хафизов">
+                <img class="photographers__image" src="<%=require('./images/ivan-hafizov-min.jpg')%>" alt="Иван Хафизов">
               </picture>
               <p class="photographers__quote">
                 «Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на
@@ -248,7 +247,7 @@
             </div>
             <div class="photographers__comment">
               <picture class="photographers__image-container">
-                <img class="photographers__image" src="./images/sergej-maksimishin-min.jpg" alt="Сергей Максимишин">
+                <img class="photographers__image" src="<%=require('./images/sergej-maksimishin-min.jpg')%>" alt="Сергей Максимишин">
               </picture>
               <p class="photographers__quote">
                 «Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь
